@@ -14,11 +14,11 @@ Sample code to demonstrate test driven development (TDD) based approach to build
 |   	                            |
 |@AutoConfigureTestDatabase   	    | If you do not want to use auto-configured test database, use this to configure a test db
 |  	                                |
-|@MockBean                          | Use with SpringRunner class to mock components in test
+|@MockBean                          | Mock components in test
 |                                   |
-|@Mock    	                        | Similar to @MockBean but without spring support; use with MockitoJUnitRunner
+|@Mock    	                        | Similar to @MockBean but without spring support
 |  	                                |
-|@AutoConfigureMockMvc              | More control of mock-mvc, disable spring security bits etc
+|@AutoConfigureMockMvc              | More control of mock-mvc, disable spring security etc
 |                                   |
 |@AutoConfigureRestDocs             | REST documentation for all Http request, responses
 |                                   |
