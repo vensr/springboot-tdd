@@ -1,6 +1,8 @@
 ## Spring TDD Example
 
 Sample code to demonstrate test driven development (TDD) based approach to build spring boot application. 
+## 
+Start with feature test (integration test), then the controller, service and repository. 
 
 ## Annotations
 
